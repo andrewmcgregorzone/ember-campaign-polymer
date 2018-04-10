@@ -1,5 +1,20 @@
 {{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+
+<div class="outlet">
+  <section>
+    <paper-button raised>Raised button</paper-button>
+  </section>
+</div>
+
+<section>
+  <vaadin-date-picker></vaadin-date-picker>
+</section>
+
+<paper-header-panel class="flex">
+    <paper-toolbar>
+        <paper-icon-button icon="menu" on-tap="menuAction"></paper-icon-button>
+        <div class="title">Polymer</div>
+    </paper-toolbar>
+</paper-header-panel>
 
 {{outlet}}

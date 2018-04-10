@@ -1,0 +1,8 @@
+{
+  "name": "ember-campaign-polymer",
+  "dependencies": {
+    "polymer": "^2.3.1",
+    "webcomponentsjs": "^1.0.22",
+    "paper-button": "PolymerElements/paper-button#^2.1.0"
+  }
+}
